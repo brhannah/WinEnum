@@ -65,6 +65,7 @@ echo ---------------------------------------------------------------------------
 netsh firewall show state >> report.txt 2>nul
 netsh firewall show config >> report.txt 2>nul
 netsh dump >> report.txt 2>nul
+netsh advfirewall show allprofiles >> report.txt 2>nul 
 netsh advfirewall firewall show rule name=all verbose >> report.txt 2>nul 
 echo --------------------------------------------------------------------------------- >> report.txt 2>nul
 echo. >> report.txt 2>nul
