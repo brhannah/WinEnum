@@ -15,6 +15,7 @@ echo ---------------------------------------------------------------------------
 echo [+] Current user >> report.txt 2>nul
 echo --------------------------------------------------------------------------------- >> report.txt 2>nul
 whoami >> report.txt 2>nul
+whoami /all >> report.txt 2>nul
 echo %username% >> report.txt 2>nul
 echo --------------------------------------------------------------------------------- >> report.txt 2>nul
 echo. >> report.txt 2>nul
